@@ -1,19 +1,9 @@
-const { somar } = require("./index");
+const { dividirNumeroPor2 } = require("./index");
 
-test('a soma deve ser correta', () => {
-  const numeroA = 2;
-  const numeroB = 3;
+test("deve ser somado 1 em todos os numeros da lista", () => {
+  const lista = [4, 8, -6, 500, 10];
 
-  const resultado = somar(numeroA,numeroB);
+  const resultado = dividirNumeroPor2(lista);
 
-  expect(resultado).toBe(5)
-})
-
-test("a soma deve ser correta", () => {
-  const numeroA = 10;
-  const numeroB = 3;
-
-  const resultado = somar(numeroA, numeroB);
-
-  expect(resultado).toBe(13);
+  expect(resultado).toEqual([2, 4, -3, 250, 5]);
 });
