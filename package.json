@@ -1,0 +1,24 @@
+{
+  "name": "javascript-exercises",
+  "version": "1.0.0",
+  "description": "Javascript exercises",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulahage/javascript-exercises.git"
+  },
+  "keywords": [
+    "javascript",
+    "exercises",
+    "js-exercises"
+  ],
+  "author": "Paula Hage <hage.paula@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulahage/javascript-exercises/issues"
+  },
+  "homepage": "https://github.com/paulahage/javascript-exercises#readme"
+}
